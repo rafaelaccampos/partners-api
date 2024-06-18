@@ -17,7 +17,7 @@ export class EventsService {
   }
 
   findAll() {
-    return `This action returns all events`;
+    return this.prismaService.event.findMany();
   }
 
   findOne(id: number) {
