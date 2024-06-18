@@ -4,9 +4,10 @@ import { AppService } from './app.service';
 import { EventsController } from './events/events.controller';
 import { EventsModule } from './events/events.module';
 import { EventsService } from './events/events.service';
+import { PrismaModule } from './prisma/prisma.module';
 
 @Module({
-  imports: [EventsModule],
+  imports: [EventsModule, PrismaModule],
   controllers: [AppController, EventsController],
   providers: [AppService, EventsService],
 })
