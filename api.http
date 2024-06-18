@@ -10,3 +10,6 @@ Content-Type: application/json
     "date": "2024-06-18T00:00:00",
     "price": 100
 }
+
+###
+GET http://localhost:3000/events/74a0efaa-6485-4395-bd8a-0b4dbc10f803
