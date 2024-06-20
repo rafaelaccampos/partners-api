@@ -24,3 +24,6 @@ Content-Type: application/json
     "date": "2024-06-18T00:00:00",
     "price": 100
 }
+
+###
+DELETE http://localhost:3000/events/910c5fff-9aa9-4e69-907e-ef29d84fa873
