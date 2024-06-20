@@ -26,8 +26,14 @@ export class EventsService {
     })
   }
 
-  update(id: number, updateEventDto: UpdateEventDto) {
-    return `This action updates a #${id} event`;
+  update(id: string, updateEventDto: UpdateEventDto) {
+    return this.prismaService.event.update({
+      data: {
+        ...updateEventDto,
+        date: new Date(updateEventDto.date)
+      },
+      where: { id },
+    });
   }
 
   remove(id: number) {
