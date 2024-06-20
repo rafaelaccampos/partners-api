@@ -26,4 +26,4 @@ Content-Type: application/json
 }
 
 ###
-DELETE http://localhost:3000/events/910c5fff-9aa9-4e69-907e-ef29d84fa873
+DELETE http://localhost:3000/events/2e04e6c4-2193-4ffd-a20c-8c06af231df8
