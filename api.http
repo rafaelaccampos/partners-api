@@ -30,7 +30,7 @@ Content-Type: application/json
 }
 
 ###
-DELETE http://localhost:3000/events/{{ eventId }}/c6fce5a2-dc16-4543-8aa5-3526e6e765f3
+DELETE http://localhost:3000/events/{{ eventId }}/58735eb4-9336-4b6a-b85e-809273e553e8
 
 ###
 GET http://localhost:3000/events/{{ eventId }}/spots
